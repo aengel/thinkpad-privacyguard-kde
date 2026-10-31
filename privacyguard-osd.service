@@ -1,0 +1,12 @@
+[Unit]
+Description=ThinkPad PrivacyGuard KDE OSD & Brightness Service
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/privacyguard-osd
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
