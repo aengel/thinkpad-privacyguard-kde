@@ -19,7 +19,7 @@ On ThinkPads equipped with an electronic PrivacyGuard panel (e.g. Coretronic `LE
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/thinkpad-privacyguard-kde.git
+git clone https://github.com/aengel/thinkpad-privacyguard-kde.git
 cd thinkpad-privacyguard-kde
 ./install.sh
 ```
